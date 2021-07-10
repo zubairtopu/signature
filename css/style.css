@@ -106,7 +106,7 @@ position: relative;
 	font-size: 3.5rem;
 	position: absolute;
 	right: -54px;
-	top: -250px;
+	top: -228px;
 }
 .right::before{
 	content: '';
