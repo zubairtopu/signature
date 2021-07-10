@@ -1,0 +1,120 @@
+/*import google fonts fira sans start*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*import google fonts fira sans end*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	color: #E63946;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+h6{
+	font-family:  'Fira Sans', sans-serif;
+	font-weight: 400;
+}
+.main{
+	background-color: #202020;
+	padding: 6% 0%;
+}
+.left{
+	text-align: center;
+}
+.customImg{
+	width: 58%;
+}
+.name{
+
+}
+.name h1{
+    margin-bottom: 2px;
+}
+.name h6{
+    margin-bottom: 2px;
+}
+.address{
+ padding-top: 14%;
+}
+.mail{
+
+}
+.mail ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    margin-bottom: 4px;
+
+}
+.mail ul li{
+
+}
+.mail ul li i{
+
+}
+
+.phone{
+
+}
+.phone ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    margin-bottom: 4px;
+}
+.phone ul li{
+
+}
+.phone ul li i{
+
+}
+.custom-margin-1{
+ margin-right: 4px;
+}
+
+.icon-box{
+
+}
+.icon-box ul{
+ display: flex;
+ list-style: none;
+ padding-left: 0px;
+}
+.icon-box ul li{
+ margin-right: 15px;
+}
+.icon-box ul li a{
+
+}
+.icon-box ul li a i{
+	font-size: 25px;
+    color: #E63946;
+}
+.icon-box ul li a i:hover{
+   transform: rotate(360deg);
+   transition: 0.7s ease-out;
+   color: #DA1B2B;
+}
+.z{
+
+}
+.code-z{
+position: relative;
+}
+.code-z h1{
+	transform: rotate(90deg);
+	font-size: 3.5rem;
+	position: absolute;
+	right: -54px;
+	top: -250px;
+}
+.right::before{
+	content: '';
+	width: 3px;
+	background-color: #E63946;
+	z-index: 99999;
+	position: absolute;
+	height: 41%;
+	right: 51%;
+	top: 104px;
+}
