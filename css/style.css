@@ -118,12 +118,12 @@ position: relative;
 	top: -165px;
 }
 .right::before{
-	content: '';
-	width: 3px;
-	background-color: #E63946;
-	z-index: 999;
-	position: absolute;
-	height: 29%;
-	right: 85%;
-	top: 19px;
+	    content: '';
+    width: 3px;
+    background-color: #E63946;
+    z-index: 999;
+    position: absolute;
+    height: 29%;
+    right: 85%;
+    top: 19px;
 }
