@@ -5,6 +5,12 @@
 	margin: 0px;
 	padding: 0px;
 }
+.main {
+    background-color: #202020;
+    padding: 6% 0%;
+    width: 600px;
+    height: 309px;
+}
 body{
 	color: #E63946;
 	font-family: 'Fira Sans', sans-serif;
@@ -16,7 +22,7 @@ h6{
 }
 .main{
 	background-color: #202020;
-	padding: 6% 0%;
+	padding: 2% 0%;
 }
 .left{
 	text-align: center;
@@ -29,9 +35,11 @@ h6{
 }
 .name h1{
     margin-bottom: 2px;
+    font-size: 1.7rem;
 }
 .name h6{
     margin-bottom: 2px;
+    font-size: 12px;
 }
 .address{
  padding-top: 14%;
@@ -44,7 +52,7 @@ h6{
     padding-left: 0px;
     display: flex;
     margin-bottom: 4px;
-
+    font-size: 12px;
 }
 .mail ul li{
 
@@ -61,6 +69,7 @@ h6{
     padding-left: 0px;
     display: flex;
     margin-bottom: 4px;
+    font-size: 12px;
 }
 .phone ul li{
 
@@ -73,7 +82,6 @@ h6{
 }
 
 .icon-box{
-
 }
 .icon-box ul{
  display: flex;
@@ -85,10 +93,11 @@ h6{
 }
 .icon-box ul li a{
 
+/* font-size: 18px; */
 }
 .icon-box ul li a i{
-	font-size: 25px;
-    color: #E63946;
+	font-size: 16px;
+	color: #E63946;
 }
 .icon-box ul li a i:hover{
    transform: rotate(360deg);
@@ -106,15 +115,15 @@ position: relative;
 	font-size: 3.5rem;
 	position: absolute;
 	right: -54px;
-	top: -228px;
+	top: -165px;
 }
 .right::before{
 	content: '';
 	width: 3px;
 	background-color: #E63946;
-	z-index: 99999;
+	z-index: 999;
 	position: absolute;
-	height: 41%;
-	right: 51%;
-	top: 104px;
+	height: 29%;
+	right: 84%;
+	top: 19px;
 }
